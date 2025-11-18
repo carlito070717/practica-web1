@@ -1,9 +1,11 @@
+/* Reset básico */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+/* Estilos del body */
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
@@ -11,46 +13,52 @@ body {
     background-color: #f4f4f4;
 }
 
-/* Contenedor principal */
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 20px;
-}
-
 /* Header */
 header {
     background-color: #333;
     color: white;
     padding: 1rem 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+/* Navegación */
+nav {
+    background-color: #555;
+    padding: 0.5rem 0;
 }
 
 nav ul {
     list-style: none;
-    display: flex;
-    justify-content: center;
+    text-align: center;
 }
 
 nav li {
-    margin: 0 15px;
+    display: inline;
+    margin: 0 1rem;
 }
 
 nav a {
     color: white;
     text-decoration: none;
-    transition: color 0.3s;
+    transition: color 0.3s ease;
 }
 
 nav a:hover {
-    color: #007bff;
+    color: #ddd;
 }
 
-/* Main content */
+/* Contenido principal */
 main {
-    padding: 2rem 0;
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 0 2rem;
     background-color: white;
-    margin: 20px 0;
-    border-radius: 5px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 
 /* Footer */
@@ -59,13 +67,16 @@ footer {
     color: white;
     text-align: center;
     padding: 1rem 0;
-    margin-top: 20px;
+    margin-top: 2rem;
+}
+
+/* Utilidades */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
 }
 
 .text-center {
     text-align: center;
-}
-
-.mt-20 {
-    margin-top: 20px;
 }
