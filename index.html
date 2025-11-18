@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UFC - Ultimate Fighting Championship</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;600;700&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <script src="script.js"></script>
+</head>
+<body>
+    <!-- Navegación -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="ufc-logo">UFC</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#inicio">INICIO</a></li>
+                <li><a href="#eventos">EVENTOS</a></li>
+                <li><a href="#luchadores">LUCHADORES</a></li>
+                <li><a href="#noticias">NOTICIAS</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Header Principal -->
+    <header class="main-header" id="inicio">
+        <div class="hero-overlay"></div>
+        <img src="img/webimg.jpg" alt="UFC Banner" id="banner" class="hero-image">
+        <div class="hero-content">
+            <h1 class="hero-title">
+                <span class="fight-night">FIGHT NIGHT</span>
+                <span class="main-title">ULTIMATE FIGHTING CHAMPIONSHIP</span>
+            </h1>
+            <p class="hero-subtitle">La experiencia más emocionante en artes marciales mixtas</p>
+            <div class="hero-buttons">
+                <button class="btn btn-primary" onclick="cambiarImagen()">VER EVENTOS</button>
+                <button class="btn btn-secondary">PRÓXIMAS PELEAS</button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Sección Principal -->
+    <section class="secciones" id="eventos">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="title-accent">CONOCE</span> LA UFC
+            </h2>
+            <div class="secciones-texto">
+                <div class="texto card-ufc">
+                    <div class="card-icon">🥊</div>
+                    <h3>Quiénes Somos</h3>
+                    <p>Somos la organización premier de artes marciales mixtas del mundo. Cada evento presenta los mejores luchadores del planeta en emocionantes combates que definen el futuro del deporte.</p>
+                    <div class="card-footer">
+                        <span class="highlight">MÁS DE 600 EVENTOS</span>
+                    </div>
+                </div>
+                <div class="texto card-ufc">
+                    <div class="card-icon">🏆</div>
+                    <h3>Contratos y Patrocinios</h3>
+                    <p>Contamos con patrocinios exclusivos de marcas líderes como Venum, Monster Energy, Crypto.com y muchas más, consolidándonos como la marca más reconocida en MMA.</p>
+                    <div class="card-footer">
+                        <span class="highlight">MARCAS GLOBALES</span>
+                    </div>
+                </div>
+                <div class="texto card-ufc">
+                    <div class="card-icon">⚡</div>
+                    <h3>Requisitos para Entrar</h3>
+                    <p>Para formar parte de UFC necesitas un sólido récord profesional, dominio en MMA, representación profesional y destacar en el Dana White's Contender Series o competiciones regionales.</p>
+                    <div class="card-footer">
+                        <span class="highlight">ÉLITE MUNDIAL</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de Estadísticas -->
+    <section class="stats-section">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <div class="stat-number">600+</div>
+                    <div class="stat-label">EVENTOS</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">195</div>
+                    <div class="stat-label">PAÍSES</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">900M+</div>
+                    <div class="stat-label">FANS</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">12</div>
+                    <div class="stat-label">DIVISIONES</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <span class="ufc-logo">UFC</span>
+                    <p>Ultimate Fighting Championship</p>
+                </div>
+                <div class="footer-info">
+                    <p>Sitio no oficial desarrollado por <strong>Ing. Carlos LLanes</strong></p>
+                    <p class="footer-year">© 2025 - Todos los derechos reservados</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+</body>
+</html>
